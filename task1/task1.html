@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0011ff;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>hello !! this is header</h1>
+  </header>
+  <main>
+    <h2>About This Page</h2>
+    <p>This is a simple webpage to lear html, css and javascript</p>
+    <h3>Dell G15 Image</h3>
+    <img src="g15.avif" width ="240" height="170" alt="G15">
+    <h3>Links</h3>
+    <p>
+      Check out more details on 
+      <a href="https://www.dell.com/en-in" target="_blank">dell website</a>.
+    </p>
+    <h3>Button interaction using js</h3>
+    <button onclick="showAlert()">Click Me!</button>
+  </main>
+  <footer>
+    <p>&copy; 2025 task1 . All Rights Reserved.</p>
+  </footer>
+  <script>
+    function showAlert() {
+      alert("Hello! You clicked the button.");
+    }
+  </script>
+  
+</body>
+</html>
